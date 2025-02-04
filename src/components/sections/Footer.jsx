@@ -84,14 +84,13 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Anshita Sharma</Logo>
+        <Logo>Sayan Mitra</Logo>
         <div className="flex flex-row gap-1">
-          <SocialMediaIcon href={Bio.linkedin} target="display">
+          <SocialMediaIcon href="www.linkedin.com/in/sayan-mitra-1905sma" target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-          <FaGithub/>
-          </SocialMediaIcon>
+
+       
     <SocialMediaIcon href={`mailto:${Bio.gmail}`}> 
   <SiGmail />
 </SocialMediaIcon>
@@ -106,7 +105,7 @@ const Footer = () => {
         </Nav>
       
       
-        <Copyright>&copy; 2024 Anshita Sharma. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Sayan Mitra. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

@@ -1,16 +1,19 @@
 export const Bio = {
-  name: "Anshita Sharma",
+  name: "Sayan Mitra",
   roles: [
     "Full Stack Developer",
     "Programmer",
+    'Coding Enthusiast',
+    'Tech Innovator',
+    'Problem Solver',
   ],
   description:
     "I'm a highly motivated and versatile individual with a strong aptitude for problem-solving and a deep commitment to continuous development. I enjoy tackling complex challenges, analyzing data, and developing effective solutions. I'm a firm believer in lifelong learning and actively pursue opportunities to expand my knowledge and skillset.",
-  github: "https://github.com/anshita005",
-  gmail: "anshitasharma2002@gmail.com",
+  github: "https://githum.com",
+  gmail: "sayanmitra105@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1QPN7ns0XUSLrKY_0d8Q53kYFafnwXTIR/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/anshitaharma004",
+    "https://app.enhancv.com/share/ce3f4876/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic ",
+  linkedin: "https://www.linkedin.com/in/sayan-mitra-1905sma",
 
 };
 
@@ -52,11 +55,7 @@ export const skills = [
         name: "Tailwind CSS",
         image: " https://raw.githubusercontent.com/anshita005/My-Portfolio/main/tailwind-css-logo-png_seeklogo-354675.png",
       },
-      {
-        name: "Shadcn UI",
-        image:
-          "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/shadcn-ui-logo-png_seeklogo-519786.png",
-      },
+
    
     ],
   },
@@ -75,21 +74,18 @@ export const skills = [
   
 
    
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
+      // {
+      //   name: "MySQL",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      // },
 
       {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      {
-        name: "Supabase",
-        image: "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/supabase-logo-DCC676FFE2-seeklogo.com.png",
-      },
+
     ],
   },
 
@@ -129,14 +125,13 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/alfabeto.png",
-    role: "Frontend Engineer Intern",
-    company: "Alfabeto Global",
-    date: "June 2024 - Sep 2024",
-    desc: "Designed and launched an Exam platform with automated scheduling, result tracking, and student-teacher communication, improving efficiency. Applied React hooks for reusable components and simplified the UI, reducing support tickets by 50%. Implemented backend validation, JWT, and error handling, cutting scheduling errors by 50% and minimizing downtime. Managed version control with Git for smooth collaboration.",
+   
+    role: "Team leader at college project",
+    
+    date: "June 2023 - Sep 2023",
+    desc: "Designed landing page for our food delivery website project, developed as part of our web development coursework, was designed to be both visually engaging and highly functional. It featured a hero section with a high-quality food image and a call-to-action button for quick ordering. We implemented a responsive layout using HTML, CSS, and JavaScript, ensuring compatibility across all devices. ",
     skills: [
-      "ReactJS",
-      "Redux",
+     
       "HTML",
       "CSS",
       "JavaScript",
@@ -148,9 +143,8 @@ export const experiences = [
   {
     id: 5,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "Hackoctober Fest'22",
-    date: "Oct 22 - Oct 22",
+    role: "Google Cloud Ai Jam",
+    date: "Oct 23 - Oct 23",
     desc: "Contributed to different open-source projects and learn from industry experts",
   },
 ];
@@ -158,11 +152,10 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/anshita005/My-Portfolio/refs/heads/main/witkmh24.rj3.webp",
-    school: "ABES Engineering College",
-    date: "Dec 2020 - July 2024",
-    grade: " 7.14 CGPA",
-    desc: "I have completed 4 years and have a CGPA of 7.14 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    school: "Meghnad Saha Institute of Technology",
+    date: "Dec 2022 - July 2026",
+    grade: " 8.7 CGPA",
+    desc: "I am undergraduate have a CGPA of 8.7 . I have knowledge in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems among others.",
     degree: "Bachelor of Technology - BTech, Computer Science",
   },
 ];
@@ -170,22 +163,20 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "Job Portal",
+    title: "Task Planner",
     description:
-      "Built a Job Portal app with React.js, allowing candidates to apply, save jobs, and recruiters to manage listings, with secure authentication via Clerk. Integrated Supabase for real-time data updates and used Redux Toolkit for state management. Designed a responsive, modern UI with ShadCN and Tailwind CSS for cross-device compatibility.",
+      "My To-Do List project is a user-friendly application for task management, developed using React for an interactive and dynamic interface. Users can add, edit, delete, and mark tasks as complete, with the state managed effectively using React hooks. The project includes a clean, responsive UI designed with CSS and supports saving tasks persistently via local storage.",
     image:
-      "https://raw.githubusercontent.com/anshita005/Job-Portal/main/jobportal1.png",
+      "https://i.ibb.co/68hMW6h/p1.jpg",
     tags: [
       "React Js",
-      "Shadcn UI",
-      "Supabase",
       "Tailwind CSS",
       "Javascript",
-      "Clerk",
+
     ],
     category: "web app",
-    github: "https://github.com/anshita005/Job-Portal",
-    webapp: "https://github.com/anshita005",
+    // github: "https://github.com/anshita005/Job-Portal",
+    // webapp: "https://github.com/anshita005",
   },
   {
     id: 12,
@@ -193,51 +184,51 @@ export const projects = [
     description:
       "My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.",
     image:
-      "https://raw.githubusercontent.com/anshita005/My-Portfolio/main/portfolio%20image.png",
+      "https://i.postimg.cc/Pq1LMLgV/opo.png",
     tags: [
       "React Js",
-      "HTML5",
+      "HTML",
       "Tailwind CSS",
       "Javascript",
      
     ],
     category: "web app",
-    github: "https://github.com/anshita005/My-Portfolio",
-    webapp: "https://github.com/anshita005",
-  },
+  //   github: "https://github.com/anshita005/My-Portfolio",
+  //   webapp: "https://github.com/anshita005",
+   },
   {
     id: 9,
-    title: "SpendWise",
+    title: "URL Shortener",
     description:
-      " SpendWise is a web application designed to streamline expense management and enhance financial tracking system with real-time logging, secure authentication via Express.js, and MongoDB for managing expenses. Designed a responsive UI using Ant Design, ensuring seamless cross-device budgeting and tracking.",
+      " In my URL Shortener project, we developed a web application that allows users to shorten long URLs into compact, shareable links. Built using Next.js and Tailwind CSS for the front end, with a backend powered by Node.js and Express, the application ensures seamless performance. We integrated a database (MongoDB) for storing and managing URLs, including features like custom alias generation and tracking the number of clicks. The design was responsive, ensuring usability on various devices, and included clear instructions for users to shorten links easily.",
     image:
-      "https://raw.githubusercontent.com/anshita005/SpendWise/main/spendWise3.png",
+      "https://i.ibb.co/0yWDYVP/p3.jpg",
     tags: [
       "React Js",
       "MongoDb",
+      "Next JS",
       "Node Js",
       "Express Js",
-      "Ant Designs", 
       "Tailwind CSS",
       "Javascript",
   
     ],
     category: "web app",
-    github: "https://github.com/anshita005/SpendWise",
-    webapp: "https://github.com/anshita005/SpendWise",
+    // github: "https://github.com/anshita005/SpendWise",
+    // webapp: "https://github.com/anshita005/SpendWise",
   },
-  {
-    id: 0,
-    title: "Gemini Clone",
-    description:
-      "Developed a responsive Gemini platform clone using the Gemini API for real-time data processing, ensuring seamless user interaction. Leveraged React Hooks and Context API for efficient state management and a smoother user experience.",
-    image:
-      "https://raw.githubusercontent.com/anshita005/Gemini-Clone-Project/main/Screenshot%202024-11-02%20175452.png",
-    tags: ["React Js", "Javascript", "GeminiAPI", "CSS3"],
-    category: "web app",
-    github: "https://github.com/anshita005/Gemini-Clone-Project",
-    webapp: "https://github.com/anshita005/Gemini-Clone-Project",
-  },
+  // {
+  //   id: 0,
+  //   title: "Gemini Clone",
+  //   description:
+  //     "Developed a responsive Gemini platform clone using the Gemini API for real-time data processing, ensuring seamless user interaction. Leveraged React Hooks and Context API for efficient state management and a smoother user experience.",
+  //   image:
+  //     "https://raw.githubusercontent.com/anshita005/Gemini-Clone-Project/main/Screenshot%202024-11-02%20175452.png",
+  //   tags: ["React Js", "Javascript", "GeminiAPI", "CSS3"],
+  //   category: "web app",
+  //   github: "https://github.com/anshita005/Gemini-Clone-Project",
+  //   webapp: "https://github.com/anshita005/Gemini-Clone-Project",
+  // },
   
 ];
 

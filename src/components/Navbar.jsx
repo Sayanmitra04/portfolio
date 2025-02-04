@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
-import { Bio } from "../data/constants";
+
 import { MenuRounded } from "@mui/icons-material";
 
 const Nav = styled.div`
@@ -139,8 +139,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <ColorText>&lt;</ColorText>Anshita
-          <div style={{ color: theme.primary }}>/</div>Sharma
+          <ColorText>&lt;</ColorText>Sayan
+          <div style={{ color: theme.primary }}>/</div>Mitra
           <ColorText>&gt;</ColorText>
         </NavLogo>
 
@@ -174,21 +174,21 @@ const Navbar = () => {
               Education
             </NavLink>
             <GithubButton
-              href={Bio.github}
+              href="www.linkedin.com/in/sayan-mitra-1905sma"
               target="_Blank"
               style={{
                 background: theme.primary,
                 color: theme.text_primary,
               }}
             >
-              Github Profile
+              Linkedin Profile
             </GithubButton>
           </MobileMenu>
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
-            Github Profile
+          <GithubButton href="www.linkedin.com/in/sayan-mitra-1905sma" target="_Blank">
+            Linkedin Profile
           </GithubButton>
         </ButtonContainer>
       </NavbarContainer>
