@@ -116,7 +116,7 @@ export const experiences = [
     id: 0,
     role: "Smart Bengal Hackathon 2025 Finalist",
     date: "Dec 2024 - Jan 2025",
-    desc: "As a finalist in the Smart Bengal Hackathon 2025, I contributed to developing innovative solutions for pressing state-level challenges.",
+    desc: "As a finalist in the Smart Bengal Hackathon 2025, I contributed to developing innovative solutions for Bias free AI Hiring and pressing state-level challenges.",
     skills: [
       "Problem Solving",
       "Team Collaboration",
@@ -128,7 +128,7 @@ export const experiences = [
     id: 1,
     role: "Smart India Hackathon 2024 Participant",
     date: "Nov 2024 - Dec 2024",
-    desc: "Passed College inter-hackathon round in the Smart India Hackathon 2024, working on a national-level problem statement and presenting a viable solution.",
+    desc: "Passed College inter-hackathon round in the Smart India Hackathon 2024, working on a national-level problem statement of Social Media Feed Parsing for Cyber Crime Detection and presenting a viable solution.",
     skills: [
       "Full Stack Development",
       "Web Scraping",
@@ -140,7 +140,7 @@ export const experiences = [
     id: 2,
     role: "Hackfest Participant 2025",
     date: "Mar 2025",
-    desc: "Participated in Hackfest 2025, a 24-hour hackathon focused on creating practical applications under time constraints.",
+    desc: "Participated in Hackfest 2025, a hackathon organized by SAP focused on creating practical applications on Elder Care & Insurance Service under time constraints.",
     skills: [
       "Full Stack Development",
       "Algorithm Design",
@@ -152,7 +152,7 @@ export const experiences = [
     id: 3,
     role: "Team leader at college project",
     date: "June 2023 - Sep 2023",
-    desc: "Designed landing page for our food delivery website project, developed as part of our web development coursework, was designed to be both visually engaging and highly functional. It featured a hero section with a high-quality food image and a call-to-action button for quick ordering. We implemented a responsive layout using HTML, CSS, and JavaScript, ensuring compatibility across all devices. ",
+    desc: "Designed landing page for our food delivery website project, developed as part of our web development coursework, was designed to be both visually engaging and highly functional. ",
     skills: [
       "Leadership Skills",
       "Workload Management",
@@ -227,7 +227,7 @@ export const projects = [
       "A robust password manager application developed using the MERN stack (MongoDB, Express.js, React, Node.js). This project provides a secure and intuitive way for users to store, manage, and retrieve their passwords. It features strong encryption, user authentication, and a user-friendly interface to help individuals maintain good password hygiene and enhance their online security.",
     image: "https://i.ibb.co/w8wC3GP/P2.jpg", // Placeholder image, replace with an actual one
     tags: [
-      "MERN Stack",
+      
       "MongoDB",
       "Express Js",
       "React Js",
