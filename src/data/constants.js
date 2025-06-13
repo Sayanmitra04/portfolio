@@ -188,7 +188,7 @@ export const projects = [
     title: "Bias Buster (AI Hiring)",
     description:
       "Bias Buster is an AI-powered hiring platform designed to reduce unconscious bias in the recruitment process. Developed as a Smart Bengal Hackathon finalist project, it leverages the MERN stack (MongoDB, Express.js, React, Node.js) for robust full-stack functionality and integrates Machine Learning algorithms for fair candidate evaluation. This ensures a more equitable and objective hiring experience.",
-    image: "https://ibb.co/hx3nyZ9F", // Placeholder image, replace with an actual one
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png", // Placeholder image, replace with an actual one
     tags: [
       "MERN Stack",
       "MongoDB",
@@ -208,7 +208,7 @@ export const projects = [
     title: "Elder Care & Insurance Service",
     description:
       "This web-based service provides comprehensive care and insurance solutions for elderly citizens, particularly those whose children reside abroad. Built with HTML, CSS, and JavaScript, it offers emergency health support, insurance management, and communication features to ensure peace of mind for families. The platform aims to bridge the geographical gap and provide immediate assistance when needed.",
-    image: "https://ibb.co/4RDCBMxj", // Placeholder image, replace with an actual one
+    image: "https://i.ibb.co/5hzCqvV5/P1.png", // Placeholder image, replace with an actual one
     tags: [
       "HTML",
       "CSS",
@@ -226,7 +226,7 @@ export const projects = [
     title: "Secure Password Manager",
     description:
       "A robust password manager application developed using the MERN stack (MongoDB, Express.js, React, Node.js). This project provides a secure and intuitive way for users to store, manage, and retrieve their passwords. It features strong encryption, user authentication, and a user-friendly interface to help individuals maintain good password hygiene and enhance their online security.",
-    image: "https://ibb.co/8Gd2Tvf", // Placeholder image, replace with an actual one
+    image: "https://i.ibb.co/w8wC3GP/P2.jpg", // Placeholder image, replace with an actual one
     tags: [
       "MERN Stack",
       "MongoDB",
