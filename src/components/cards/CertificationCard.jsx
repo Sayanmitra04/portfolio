@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { CertificationCard } from "../../data/constants";
 
 const Card = styled.div`
   width: 330px;
@@ -87,27 +88,27 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
-const CertificationCard = ({ CertificationCard, setOpenModal }) => {
+const CertificationCard = ({ data, setOpenModal }) => {
   return (
-    <Card onClick={() => setOpenModal({ state: true, CertificationCard: CertificationCard })}>
-      <Image src={CertificationCard.image} />
+    <Card onClick={() => setOpenModal({ state: true, CertificationCard: data })}>
+      <Image src={data.image} />
       <Tags>
-        {CertificationCard.tags?.map((tag, index) => (
-          <Tag>{tag}</Tag>
+        {data.tags?.map((tag, index) => (
+          <Tag key={index}>{tag}</Tag>
         ))}
       </Tags>
       <Details>
-        <Title>{CertificationCard.title}</Title>
-        <Date>{CertificationCard.date}</Date>
-
+        <Title>{data.title}</Title>
+        <Date>{data.date}</Date>
       </Details>
       <Members>
-        {CertificationCard.member?.map((member) => (
-          <Avatar src={member.img} />
+        {data.member?.map((member, index) => (
+          <Avatar key={index} src={member.img} />
         ))}
       </Members>
     </Card>
   );
 };
+
 
 export default CertificationCard;
