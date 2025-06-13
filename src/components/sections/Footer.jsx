@@ -87,7 +87,7 @@ const Footer = () => {
         <Logo>Sayan Mitra</Logo>
         <div className="flex flex-row gap-1">
           <SocialMediaIcon href="https://www.linkedin.com/in/sayan-mitra-1905sma" target="_blank" rel="noopener noreferrer">
-  <LinkedInIcon />
+
 
        
           </SocialMediaIcon>
