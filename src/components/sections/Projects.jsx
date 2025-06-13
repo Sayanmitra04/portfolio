@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { projects } from "../../data/constants";
 import ProjectCard from "../cards/ProjectCard";

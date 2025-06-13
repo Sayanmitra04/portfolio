@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 
 const FooterContainer = styled.div`
