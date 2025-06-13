@@ -155,13 +155,13 @@ const Navbar = () => {
         </NavItems>
 
         <ButtonContainer>
-<GithubButton
-  href="https://www.linkedin.com/in/sayan-mitra-1905sma"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Linkedin Profile
-</GithubButton>
+          <GithubButton
+            href="https://www.linkedin.com/in/sayan-mitra-1905sma"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin Profile
+          </GithubButton>
         </ButtonContainer>
       </NavbarContainer>
 

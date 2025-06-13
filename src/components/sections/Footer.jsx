@@ -86,7 +86,9 @@ const Footer = () => {
       <FooterWrapper>
         <Logo>Sayan Mitra</Logo>
         <div className="flex flex-row gap-1">
-          <SocialMediaIcon href="www.linkedin.com/in/sayan-mitra-1905sma" target="display">
+          <SocialMediaIcon href="https://www.linkedin.com/in/sayan-mitra-1905sma" target="_blank" rel="noopener noreferrer">
+  <LinkedInIcon />
+
             <LinkedInIcon />
           </SocialMediaIcon>
 
