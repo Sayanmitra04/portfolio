@@ -125,9 +125,9 @@ export const experiences = [
   },
   {
     id: 1,
-    role: "Smart India Hackathon 2025 Finalist",
+    role: "Smart India Hackathon 2024 Participant",
     date: "Nov 2024 - Dec 2024",
-    desc: "Achieved finalist status in the Smart India Hackathon 2025, working on a national-level problem statement and presenting a viable solution.",
+    desc: "Passed College inter-hackathon round in the Smart India Hackathon 2025, working on a national-level problem statement and presenting a viable solution.",
     skills: [
       "Full Stack Development",
       "Ideation",
