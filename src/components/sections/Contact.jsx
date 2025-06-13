@@ -77,7 +77,7 @@ const Contact = ({ openModal, setOpenModal }) => {
         <CardContainer>
           {
             certifications.map((certifications) => (
-              <ProjectCard
+              <CertificationCard
                 certifications={certifications}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
