@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
-import { LInkedInIcon } from "../icons/LInkedInIcon";
+import { LinkedInIcon } from "../icons/LinkedInIcon";
 
 import { SiGmail } from 'react-icons/si';
 
@@ -88,7 +88,7 @@ const Footer = () => {
         <div className="flex flex-row gap-1">
           <SocialMediaIcon href="https://www.linkedin.com/in/sayan-mitra-1905sma" target="_blank" rel="noopener noreferrer">
 
-     <LInkedInIcon />
+ <LinkedInIcon />
        
           </SocialMediaIcon>
 
