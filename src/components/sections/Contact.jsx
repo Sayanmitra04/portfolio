@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { certifications } from "../../data/constants";
-import CertificationCard from "../cards/ProjectCard";
+import CertificationCard from "../cards/CertificationCard";
 
 const Container = styled.div`
 margin-top: 100px;
