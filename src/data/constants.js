@@ -11,7 +11,7 @@ export const Bio = {
   github: "https://github.com",
   gmail: "sayanmitra105@gmail.com",
   resume:
-    "https://app.enhancv.com/share/ce3f4876/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic ",
+    "https://app.enhancv.com/share/ce3f4876/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic",
   linkedin: "https://www.linkedin.com/in/sayan-mitra-1905sma",
 };
 
@@ -117,49 +117,28 @@ export const experiences = [
     role: "Smart Bengal Hackathon 2025 Finalist",
     date: "Dec 2024 - Jan 2025",
     desc: "As a finalist in the Smart Bengal Hackathon 2025, I contributed to developing innovative solutions for Bias free AI Hiring and pressing state-level challenges.",
-    skills: [
-      "Problem Solving",
-      "Team Collaboration",
-      "Rapid Prototyping",
-      "Presentation Skills",
-    ],
+    skills: ["Problem Solving", "Team Collaboration", "Rapid Prototyping", "Presentation Skills"],
   },
   {
     id: 1,
     role: "Smart India Hackathon 2024 Participant",
     date: "Nov 2024 - Dec 2024",
     desc: "Passed College inter-hackathon round in the Smart India Hackathon 2024, working on a national-level problem statement of Social Media Feed Parsing for Cyber Crime Detection and presenting a viable solution.",
-    skills: [
-      "Full Stack Development",
-      "Web Scraping",
-      "Product Design",
-      "Strategic Thinking",
-    ],
+    skills: ["Full Stack Development", "Web Scraping", "Product Design", "Strategic Thinking"],
   },
   {
     id: 2,
     role: "Hackfest Participant 2025",
     date: "Mar 2025",
     desc: "Participated in Hackfest 2025, a hackathon organized by SAP focused on creating practical applications on Elder Care & Insurance Service under time constraints.",
-    skills: [
-      "Full Stack Development",
-      "Algorithm Design",
-      "Debugging",
-      "Time Management",
-    ],
+    skills: ["Full Stack Development", "Algorithm Design", "Debugging", "Time Management"],
   },
   {
     id: 3,
     role: "Team leader at college project",
     date: "June 2023 - Sep 2023",
-    desc: "Designed landing page for our food delivery website project, developed as part of our web development coursework, was designed to be both visually engaging and highly functional. ",
-    skills: [
-      "Leadership Skills",
-      "Workload Management",
-      "Task Distribution",
-      "Team Collaboration",
-      "Time Management",
-    ],
+    desc: "Designed landing page for our food delivery website project, developed as part of our web development coursework, was designed to be both visually engaging and highly functional.",
+    skills: ["Leadership Skills", "Workload Management", "Task Distribution", "Team Collaboration", "Time Management"],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
@@ -176,7 +155,7 @@ export const education = [
     id: 0,
     school: "Meghnad Saha Institute of Technology",
     date: "Aug 2022 - July 2026",
-    grade: " 8.7 CGPA",
+    grade: "8.7 CGPA",
     desc: "I am undergraduate have a CGPA of 8.7 . I have knowledge in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems among others.",
     degree: "Bachelor of Technology - BTech, Computer Science",
   },
@@ -184,101 +163,96 @@ export const education = [
 
 export const projects = [
   {
-    id: 13, // New ID for Bias Buster
+    id: 13,
     title: "Bias Buster (AI Hiring)",
     description:
-      "Bias Buster is an AI-powered hiring platform designed to reduce unconscious bias in the recruitment process. Developed as a Smart Bengal Hackathon finalist project, it leverages the MERN stack (MongoDB, Express.js, React, Node.js) for robust full-stack functionality and integrates Machine Learning algorithms for fair candidate evaluation. This ensures a more equitable and objective hiring experience.",
-    image: "https://i.ibb.co/gbkX3P9Z/P3.png", // Placeholder image, replace with an actual one
-    tags: [
-      "MongoDB",
-      "Express Js",
-      "React Js",
-      "Node Js",
-      "Machine Learning",
-      "AI",
-      "Bias Reduction",
-    ],
+      "Bias Buster is an AI-powered hiring platform designed to reduce unconscious bias in the recruitment process. Developed as a Smart Bengal Hackathon finalist project, it leverages the the MERN stack for robust full-stack functionality and integrates Machine Learning algorithms for fair candidate evaluation.",
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
+    tags: ["MongoDB", "Express Js", "React Js", "Node Js", "Machine Learning", "AI", "Bias Reduction"],
     category: "web app",
-    // github: "YOUR_BIAS_BUSTER_GITHUB_LINK", // Add your GitHub link here
-    // webapp: "YOUR_BIAS_BUSTER_LIVE_DEMO_LINK", // Add your live demo link here
   },
   {
-    id: 14, // New ID for Elder Care Service
+    id: 14,
     title: "Elder Care & Insurance Service",
     description:
-      "This web-based service provides comprehensive care and insurance solutions for elderly citizens, particularly those whose children reside abroad. Built with HTML, CSS, and JavaScript, it offers emergency health support, insurance management, and communication features to ensure peace of mind for families. The platform aims to bridge the geographical gap and provide immediate assistance when needed.",
-    image: "https://i.ibb.co/5hzCqvV5/P1.png", // Placeholder image, replace with an actual one
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Healthcare",
-      "Emergency Response",
-      "User Interface Design",
-    ],
+      "This web-based service provides comprehensive care and insurance solutions for elderly citizens, particularly those whose children reside abroad. Built with HTML, CSS, and JavaScript, it offers emergency health support, insurance management, and communication features.",
+    image: "https://i.ibb.co/5hzCqvV5/P1.png",
+    tags: ["HTML", "CSS", "JavaScript", "Healthcare", "Emergency Response", "User Interface Design"],
     category: "web app",
-    // github: "YOUR_ELDER_CARE_GITHUB_LINK", // Add your GitHub link here
-    // webapp: "YOUR_ELDER_CARE_LIVE_DEMO_LINK", // Add your live demo link here
   },
   {
-    id: 15, // New ID for Password Manager
+    id: 15,
     title: "Secure Password Manager",
     description:
-      "A robust password manager application developed using the MERN stack (MongoDB, Express.js, React, Node.js). This project provides a secure and intuitive way for users to store, manage, and retrieve their passwords. It features strong encryption, user authentication, and a user-friendly interface to help individuals maintain good password hygiene and enhance their online security.",
-    image: "https://i.ibb.co/w8wC3GP/P2.jpg", // Placeholder image, replace with an actual one
-    tags: [
-      
-      "MongoDB",
-      "Express Js",
-      "React Js",
-      "Node Js",
-      "Security",
-      "Authentication",
-      "Encryption",
-    ],
+      "A robust password manager application developed using the MERN stack. This project provides a secure and intuitive way for users to store, manage, and retrieve their passwords.",
+    image: "https://i.ibb.co/w8wC3GP/P2.jpg",
+    tags: ["MongoDB", "Express Js", "React Js", "Node Js", "Security", "Authentication", "Encryption"],
     category: "web app",
-    // github: "YOUR_PASSWORD_MANAGER_GITHUB_LINK", // Add your GitHub link here
-    // webapp: "YOUR_PASSWORD_MANAGER_LIVE_DEMO_LINK", // Add your live demo link here
   },
   {
     id: 11,
     title: "Task Planner",
     description:
-      "My To-Do List project is a user-friendly application for task management, developed using React for an interactive and dynamic interface. Users can add, edit, delete, and mark tasks as complete, with the state managed effectively using React hooks. The project includes a clean, responsive UI designed with CSS and supports saving tasks persistently via local storage.",
+      "My To-Do List project is a user-friendly application for task management, developed using React for an interactive and dynamic interface.",
     image: "https://i.ibb.co/68hMW6h/p1.jpg",
     tags: ["React Js", "Tailwind CSS", "Javascript"],
     category: "web app",
-    // github: "https://github.com/anshita005/Job-Portal", // Add your GitHub link here
-    // webapp: "https://github.com/anshita005", // Add your live demo link here
   },
   {
     id: 12,
     title: "My Portfolio",
     description:
-      "My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.",
+      "My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements.",
     image: "https://i.postimg.cc/Pq1LMLgV/opo.png",
     tags: ["React Js", "HTML", "Tailwind CSS", "Javascript"],
     category: "web app",
-    // github: "https://github.com/anshita005/My-Portfolio", // Add your GitHub link here
-    // webapp: "https://github.com/anshita005", // Add your live demo link here
   },
   {
     id: 9,
     title: "URL Shortener",
     description:
-      "In my URL Shortener project, we developed a web application that allows users to shorten long URLs into compact, shareable links. Built using Next.js and Tailwind CSS for the front end, with a backend powered by Node.js and Express, the application ensures seamless performance. We integrated a database (MongoDB) for storing and managing URLs, including features like custom alias generation and tracking the number of clicks. The design was responsive, ensuring usability on various devices, and included clear instructions for users to shorten links easily.",
+      "In my URL Shortener project, we developed a web application that allows users to shorten long URLs into compact, shareable links.",
     image: "https://i.ibb.co/0yWDYVP/p3.jpg",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Next JS",
-      "Node Js",
-      "Express Js",
-      "Tailwind CSS",
-      "Javascript",
-    ],
+    tags: ["React Js", "MongoDb", "Next JS", "Node Js", "Express Js", "Tailwind CSS", "Javascript"],
     category: "web app",
-    // github: "https://github.com/anshita005/SpendWise", // Add your GitHub link here
-    // webapp: "https://github.com/anshita005/SpendWise", // Add your live demo link here
+  },
+];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "Bias Buster (AI Hiring)",
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
+    category: "web app",
+  },
+  {
+    id: 2,
+    title: "Bias Buster (AI Hiring)",
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
+    category: "web app",
+  },
+  {
+    id: 3,
+    title: "Bias Buster (AI Hiring)",
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
+    category: "web app",
+  },
+  {
+    id: 4,
+    title: "Bias Buster (AI Hiring)",
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
+    category: "web app",
+  },
+  {
+    id: 5,
+    title: "Bias Buster (AI Hiring)",
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
+    category: "web app",
+  },
+  {
+    id: 6,
+    title: "Bias Buster (AI Hiring)",
+    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
+    category: "web app",
   },
 ];
