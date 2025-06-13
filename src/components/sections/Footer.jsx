@@ -89,7 +89,7 @@ const Footer = () => {
           <SocialMediaIcon href="https://www.linkedin.com/in/sayan-mitra-1905sma" target="_blank" rel="noopener noreferrer">
   <LinkedInIcon />
 
-            <LinkedInIcon />
+       
           </SocialMediaIcon>
 
        
