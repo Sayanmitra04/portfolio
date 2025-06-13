@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
-
 import { MenuRounded } from "@mui/icons-material";
 
 const Nav = styled.div`
@@ -16,6 +15,7 @@ const Nav = styled.div`
   z-index: 10;
   color: white;
 `;
+
 const ColorText = styled.div`
   color: ${({ theme }) => theme.primary};
   font-size: 32px;
@@ -30,6 +30,7 @@ const NavbarContainer = styled.div`
   justify-content: space-between;
   font-size: 1rem;
 `;
+
 const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
@@ -114,15 +115,11 @@ const MobileMenu = styled.ul`
   flex-direction: column;
   align-items: start;
   gap: 16px;
-  padding: 0 6px;
-  list-style: none;
-  width: 100%;
   padding: 12px 40px 24px 40px;
   background: ${({ theme }) => theme.card_light + 99};
   position: absolute;
   top: 80px;
   right: 0;
-
   transition: all 0.6s ease-in-out;
   transform: ${({ isOpen }) =>
     isOpen ? "translateY(0)" : "translateY(-100%)"};
@@ -135,6 +132,7 @@ const MobileMenu = styled.ul`
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
+
   return (
     <Nav>
       <NavbarContainer>
@@ -156,42 +154,47 @@ const Navbar = () => {
           <NavLink href="#Education">Education</NavLink>
         </NavItems>
 
-        {isOpen && (
-          <MobileMenu isOpen={isOpen}>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">
-              About
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
-              Skills
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-              Projects
-            </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Education
-            </NavLink>
-            <GithubButton
-              href="www.linkedin.com/in/sayan-mitra-1905sma"
-              target="_Blank"
-              style={{
-                background: theme.primary,
-                color: theme.text_primary,
-              }}
-            >
-              Linkedin Profile
-            </GithubButton>
-          </MobileMenu>
-        )}
-
         <ButtonContainer>
-          <GithubButton href="www.linkedin.com/in/sayan-mitra-1905sma" target="_Blank">
-            Linkedin Profile
-          </GithubButton>
+<GithubButton
+  href="https://www.linkedin.com/in/sayan-mitra-1905sma"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Linkedin Profile
+</GithubButton>
         </ButtonContainer>
       </NavbarContainer>
+
+      {isOpen && (
+        <MobileMenu isOpen={isOpen}>
+          <NavLink onClick={() => setIsOpen(false)} href="#About">
+            About
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(false)} href="#Skills">
+            Skills
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(false)} href="#Experience">
+            Experience
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(false)} href="#Projects">
+            Projects
+          </NavLink>
+          <NavLink onClick={() => setIsOpen(false)} href="#Education">
+            Education
+          </NavLink>
+          <GithubButton
+            href="https://www.linkedin.com/in/sayan-mitra-1905sma"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              background: theme.primary,
+              color: theme.text_primary,
+            }}
+          >
+            Linkedin Profile
+          </GithubButton>
+        </MobileMenu>
+      )}
     </Nav>
   );
 };
