@@ -183,6 +183,65 @@ export const education = [
 
 export const projects = [
   {
+     
+    id: 13, // New ID for Bias Buster
+    title: "Bias Buster (AI Hiring)",
+    description:
+      "Bias Buster is an AI-powered hiring platform designed to reduce unconscious bias in the recruitment process. Developed as a Smart Bengal Hackathon finalist project, it leverages the MERN stack (MongoDB, Express.js, React, Node.js) for robust full-stack functionality and integrates Machine Learning algorithms for fair candidate evaluation. This ensures a more equitable and objective hiring experience.",
+    image: "https://ibb.co/hx3nyZ9F", // Placeholder image, replace with an actual one
+    tags: [
+      "MERN Stack",
+      "MongoDB",
+      "Express Js",
+      "React Js",
+      "Node Js",
+      "Machine Learning",
+      "AI",
+      "Bias Reduction"
+    ],
+    category: "web app",
+    // github: "YOUR_BIAS_BUSTER_GITHUB_LINK", // Add your GitHub link here
+    // webapp: "YOUR_BIAS_BUSTER_LIVE_DEMO_LINK", // Add your live demo link here
+  },
+  {
+    id: 14, // New ID for Elder Care Service
+    title: "Elder Care & Insurance Service",
+    description:
+      "This web-based service provides comprehensive care and insurance solutions for elderly citizens, particularly those whose children reside abroad. Built with HTML, CSS, and JavaScript, it offers emergency health support, insurance management, and communication features to ensure peace of mind for families. The platform aims to bridge the geographical gap and provide immediate assistance when needed.",
+    image: "https://ibb.co/4RDCBMxj", // Placeholder image, replace with an actual one
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Healthcare",
+      "Emergency Response",
+      "User Interface Design"
+    ],
+    category: "web app",
+    // github: "YOUR_ELDER_CARE_GITHUB_LINK", // Add your GitHub link here
+    // webapp: "YOUR_ELDER_CARE_LIVE_DEMO_LINK", // Add your live demo link here
+  },
+  {
+    id: 15, // New ID for Password Manager
+    title: "Secure Password Manager",
+    description:
+      "A robust password manager application developed using the MERN stack (MongoDB, Express.js, React, Node.js). This project provides a secure and intuitive way for users to store, manage, and retrieve their passwords. It features strong encryption, user authentication, and a user-friendly interface to help individuals maintain good password hygiene and enhance their online security.",
+    image: "https://ibb.co/8Gd2Tvf", // Placeholder image, replace with an actual one
+    tags: [
+      "MERN Stack",
+      "MongoDB",
+      "Express Js",
+      "React Js",
+      "Node Js",
+      "Security",
+      "Authentication",
+      "Encryption"
+    ],
+    category: "web app",
+    // github: "YOUR_PASSWORD_MANAGER_GITHUB_LINK", // Add your GitHub link here
+    // webapp: "YOUR_PASSWORD_MANAGER_LIVE_DEMO_LINK", // Add your live demo link here
+  },
+  {
     id: 11,
     title: "Task Planner",
     description:
@@ -235,62 +294,5 @@ export const projects = [
     // github: "https://github.com/anshita005/SpendWise", // Add your GitHub link here
     // webapp: "https://github.com/anshita005/SpendWise", // Add your live demo link here
   },
-  {
-    id: 13, // New ID for Bias Buster
-    title: "Bias Buster (AI Hiring)",
-    description:
-      "Bias Buster is an AI-powered hiring platform designed to reduce unconscious bias in the recruitment process. Developed as a Smart Bengal Hackathon finalist project, it leverages the MERN stack (MongoDB, Express.js, React, Node.js) for robust full-stack functionality and integrates Machine Learning algorithms for fair candidate evaluation. This ensures a more equitable and objective hiring experience.",
-    image: "https://via.placeholder.com/400x250/FF6347/FFFFFF?text=Bias+Buster", // Placeholder image, replace with an actual one
-    tags: [
-      "MERN Stack",
-      "MongoDB",
-      "Express Js",
-      "React Js",
-      "Node Js",
-      "Machine Learning",
-      "AI",
-      "Bias Reduction"
-    ],
-    category: "web app",
-    // github: "YOUR_BIAS_BUSTER_GITHUB_LINK", // Add your GitHub link here
-    // webapp: "YOUR_BIAS_BUSTER_LIVE_DEMO_LINK", // Add your live demo link here
-  },
-  {
-    id: 14, // New ID for Elder Care Service
-    title: "Elder Care & Insurance Service",
-    description:
-      "This web-based service provides comprehensive care and insurance solutions for elderly citizens, particularly those whose children reside abroad. Built with HTML, CSS, and JavaScript, it offers emergency health support, insurance management, and communication features to ensure peace of mind for families. The platform aims to bridge the geographical gap and provide immediate assistance when needed.",
-    image: "https://via.placeholder.com/400x250/4682B4/FFFFFF?text=Elder+Care", // Placeholder image, replace with an actual one
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Healthcare",
-      "Emergency Response",
-      "User Interface Design"
-    ],
-    category: "web app",
-    // github: "YOUR_ELDER_CARE_GITHUB_LINK", // Add your GitHub link here
-    // webapp: "YOUR_ELDER_CARE_LIVE_DEMO_LINK", // Add your live demo link here
-  },
-  {
-    id: 15, // New ID for Password Manager
-    title: "Secure Password Manager",
-    description:
-      "A robust password manager application developed using the MERN stack (MongoDB, Express.js, React, Node.js). This project provides a secure and intuitive way for users to store, manage, and retrieve their passwords. It features strong encryption, user authentication, and a user-friendly interface to help individuals maintain good password hygiene and enhance their online security.",
-    image: "https://via.placeholder.com/400x250/32CD32/FFFFFF?text=Password+Manager", // Placeholder image, replace with an actual one
-    tags: [
-      "MERN Stack",
-      "MongoDB",
-      "Express Js",
-      "React Js",
-      "Node Js",
-      "Security",
-      "Authentication",
-      "Encryption"
-    ],
-    category: "web app",
-    // github: "YOUR_PASSWORD_MANAGER_GITHUB_LINK", // Add your GitHub link here
-    // webapp: "YOUR_PASSWORD_MANAGER_LIVE_DEMO_LINK", // Add your live demo link here
-  },
+ 
 ];
