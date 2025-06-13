@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
-import { LinkedInIcon } from "../icons/LinkedInIcon";
+import { LinkedInIcon } from "../../icons/LinkedInIcon";
 
 import { SiGmail } from 'react-icons/si';
 
