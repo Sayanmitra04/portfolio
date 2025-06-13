@@ -100,7 +100,7 @@ const Avatar = styled.img`
 const CertificationCard = ({ CertificationCard, setOpenModal }) => {
   return (
     <Card onClick={() => setOpenModal({ state: true, CertificationCard: CertificationCard })}>
-      <Image src={project.image} />
+      <Image src={CertificationCard.image} />
       <Tags>
         {CertificationCard.tags?.map((tag, index) => (
           <Tag>{tag}</Tag>
