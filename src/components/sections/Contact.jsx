@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { projects } from "../../data/constants";
-import ProjectCard from "../cards/ProjectCard";
+import { certifications } from "../../data/constants";
+import CertificationCard from "../cards/ProjectCard";
 
 const Container = styled.div`
 margin-top: 100px;
@@ -65,7 +65,7 @@ const Contact = ({ openModal, setOpenModal }) => {
   return (
     <Container id="Projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Certifications</Title>
         <Desc
           style={{
             marginBottom: "40px",
@@ -76,9 +76,9 @@ const Contact = ({ openModal, setOpenModal }) => {
   
         <CardContainer>
           {
-            projects.map((project) => (
+            certifications.map((certifications) => (
               <ProjectCard
-                project={project}
+                certifications={certifications}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
