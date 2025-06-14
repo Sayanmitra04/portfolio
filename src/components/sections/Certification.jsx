@@ -62,7 +62,7 @@ const CardOuter = styled.div`
   padding: 3px;
   border-radius: 20px;
   width: 300px;
-  height: 400px;
+  height: 100px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   &:hover {
     transform: scale(1.05);
