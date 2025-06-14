@@ -91,3 +91,5 @@ const Projects = ({ openModal, setOpenModal }) => {
 };
 
 export default Projects;
+
+
