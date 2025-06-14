@@ -10,13 +10,13 @@ const certifications = [
   {
     title: "Machine Learning",
     issuer: "Stanford University",
-    date: "Mar 2024",
+    date: "Feb 2024",
     gradient: "from-green-400 via-blue-500 to-purple-600",
   },
   {
     title: "Cloud Computing",
     issuer: "Google Cloud",
-    date: "Feb 2024",
+    date: "Mar 2024",
     gradient: "from-purple-500 via-indigo-500 to-blue-500",
   },
   {
@@ -41,21 +41,21 @@ const certifications = [
 
 const Certification = () => {
   return (
-    <div className="min-h-screen bg-black text-white py-12 px-4 sm:px-6 lg:px-20">
-      <h2 className="text-4xl font-bold mb-10 text-center text-white animate-pulse tracking-wide">
+    <div className="w-full min-h-screen py-16 px-4 sm:px-8 flex flex-col items-center text-white">
+      <h2 className="text-4xl font-bold text-center mb-12 tracking-wider animate-pulse">
         Certifications
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         {certifications.map((cert, index) => (
           <div
             key={index}
-            className={`relative p-1 rounded-2xl bg-gradient-to-tr ${cert.gradient} shadow-2xl hover:scale-105 transition-transform duration-500`}
+            className={`relative p-1 w-[300px] h-[420px] rounded-2xl bg-gradient-to-br ${cert.gradient} hover:scale-105 transition-transform duration-500 shadow-xl`}
           >
-            <div className="bg-black rounded-2xl p-6 h-full flex flex-col justify-between hover:bg-opacity-90 transition duration-500">
+            <div className="bg-[#0e0e0e] rounded-2xl h-full w-full p-6 flex flex-col justify-between hover:bg-opacity-90 transition duration-500">
               <div>
                 <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
-                <p className="text-sm opacity-80">{cert.issuer}</p>
+                <p className="text-sm text-gray-300">{cert.issuer}</p>
               </div>
               <div className="mt-6 text-sm text-right italic text-gray-400">{cert.date}</div>
             </div>
