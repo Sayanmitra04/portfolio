@@ -61,8 +61,8 @@ const CardOuter = styled.div`
   background: linear-gradient(135deg, #ff00cc, #3333ff, #00ffff);
   padding: 3px;
   border-radius: 20px;
-  width: 300px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   &:hover {
     transform: scale(1.05);
