@@ -10,6 +10,7 @@ const Container = styled.div`
   z-index: 1;
   padding: 0 16px;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 `;
 
 const Wrapper = styled.div`
@@ -21,6 +22,7 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   gap: 12px;
+
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -29,9 +31,13 @@ const Wrapper = styled.div`
 const Title = styled.div`
   font-size: 52px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  background: linear-gradient(90deg, #00f0ff, #ff00e0, #00ffb2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
@@ -42,7 +48,10 @@ const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
+  background: linear-gradient(90deg, #00ffd5, #ff9aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   @media (max-width: 768px) {
     font-size: 16px;
   }
@@ -59,14 +68,16 @@ const CardContainer = styled.div`
 
 const CardOuter = styled.div`
   background: linear-gradient(135deg, #ff00cc, #3333ff, #00ffff);
-  padding: 3px;
+  padding: 5px;
   border-radius: 20px;
-  width: 400px;
-  height: 200px;
+  width: 320px;
+  height: 420px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 0 10px #0ff;
+
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px 5px rgba(255, 0, 255, 0.4);
+    box-shadow: 0 0 40px 8px rgba(0, 255, 255, 0.4);
   }
 `;
 
@@ -84,23 +95,28 @@ const CardInner = styled.div`
 const CertImageWrapper = styled.div`
   overflow: hidden;
   border-radius: 12px;
+  border: 2px solid #333;
 `;
 
 const CertImage = styled.img`
   width: 100%;
-  height: 160px;
+  height: 220px;
   object-fit: cover;
   transition: transform 0.4s ease;
+
   &:hover {
     transform: scale(1.1);
   }
 `;
 
 const CertTitle = styled.h3`
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 14px;
+ background: linear-gradient(90deg, #00ffd5, #ff9aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 
 const CertDate = styled.p`
@@ -111,34 +127,34 @@ const CertDate = styled.p`
 
 const certifications = [
   {
-    title: "Full Stack Developer",
-    date: "Jan 2024",
-    image: "https://images.unsplash.com/photo-1612831455543-2a84d320f795",
+    title: 'Smart Bengal Hackathon',
+    date: 'May 2025',
+    image: 'https://i.ibb.co/tPKbPpHb/P5.png',
   },
   {
-    title: "Machine Learning",
-    date: "Feb 2024",
-    image: "https://images.unsplash.com/photo-1581091870622-1f9b8f13aa3b",
+    title: 'Smart India Hackathon',
+    date: 'Nov 2024',
+    image: 'https://i.ibb.co/vxXMhjJ4/P4.png',
   },
   {
-    title: "Cloud Computing",
-    date: "Mar 2024",
-    image: "https://images.unsplash.com/photo-1556155092-8707de31f9c4",
+    title: 'SAP Hackfest',
+    date: 'Apr 2025',
+    image: 'https://i.ibb.co/7tBRxgw5/P6.png',
   },
   {
-    title: "UI/UX Design",
-    date: "Apr 2024",
-    image: "https://images.unsplash.com/photo-1559027615-bc7f1f9680c5",
+    title: 'Javascript Essentials',
+    date: 'July 2023',
+    image: 'https://i.ibb.co/wN1ZmQZD/P7.png',
   },
   {
-    title: "Cyber Security",
-    date: "May 2024",
-    image: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9",
+    title: 'Javascript Advanced',
+    date: 'April 2024',
+    image: 'https://i.ibb.co/hGxrj5K/P8.png',
   },
   {
-    title: "AI Fundamentals",
-    date: "Jun 2024",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    title: 'Data Visualization',
+    date: 'Jun 2023',
+    image: 'https://i.ibb.co/GQRTcZ0k/P9.png',
   },
 ];
 
@@ -147,7 +163,7 @@ const Certification = () => {
     <Container>
       <Wrapper>
         <Title>Certifications</Title>
-        <Desc>Here are some of my most recent and valuable certifications.</Desc>
+        <Desc>My certifications reflect dedication to continuous learning and highlight key milestones in my journey.</Desc>
         <CardContainer>
           {certifications.map((cert, index) => (
             <CardOuter key={index}>

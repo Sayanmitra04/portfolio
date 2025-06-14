@@ -28,9 +28,13 @@ const Wrapper = styled.div`
 const Title = styled.div`
   font-size: 52px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  background: linear-gradient(90deg, #00f0ff, #ff00e0, #00ffb2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
@@ -41,7 +45,10 @@ const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
+  background: linear-gradient(90deg, #00ffd5, #ff9aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   @media (max-width: 768px) {
     font-size: 16px;
   }
