@@ -81,15 +81,26 @@ const CardInner = styled.div`
   color: white;
 `;
 
-const CertTitle = styled.h3`
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 10px;
+const CertImageWrapper = styled.div`
+  overflow: hidden;
+  border-radius: 12px;
 `;
 
-const CertIssuer = styled.p`
-  font-size: 16px;
-  color: #aaaaaa;
+const CertImage = styled.img`
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
+
+const CertTitle = styled.h3`
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 12px;
 `;
 
 const CertDate = styled.p`
@@ -99,12 +110,36 @@ const CertDate = styled.p`
 `;
 
 const certifications = [
-  { title: "Full Stack Developer", issuer: "Coursera", date: "Jan 2024" },
-  { title: "Machine Learning", issuer: "Stanford", date: "Feb 2024" },
-  { title: "Cloud Computing", issuer: "Google Cloud", date: "Mar 2024" },
-  { title: "UI/UX Design", issuer: "Adobe", date: "Apr 2024" },
-  { title: "Cyber Security", issuer: "EC-Council", date: "May 2024" },
-  { title: "AI Fundamentals", issuer: "IBM", date: "Jun 2024" },
+  {
+    title: "Full Stack Developer",
+    date: "Jan 2024",
+    image: "https://images.unsplash.com/photo-1612831455543-2a84d320f795",
+  },
+  {
+    title: "Machine Learning",
+    date: "Feb 2024",
+    image: "https://images.unsplash.com/photo-1581091870622-1f9b8f13aa3b",
+  },
+  {
+    title: "Cloud Computing",
+    date: "Mar 2024",
+    image: "https://images.unsplash.com/photo-1556155092-8707de31f9c4",
+  },
+  {
+    title: "UI/UX Design",
+    date: "Apr 2024",
+    image: "https://images.unsplash.com/photo-1559027615-bc7f1f9680c5",
+  },
+  {
+    title: "Cyber Security",
+    date: "May 2024",
+    image: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9",
+  },
+  {
+    title: "AI Fundamentals",
+    date: "Jun 2024",
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+  },
 ];
 
 const Certification = () => {
@@ -118,8 +153,10 @@ const Certification = () => {
             <CardOuter key={index}>
               <CardInner>
                 <div>
+                  <CertImageWrapper>
+                    <CertImage src={cert.image} alt={cert.title} />
+                  </CertImageWrapper>
                   <CertTitle>{cert.title}</CertTitle>
-                  <CertIssuer>{cert.issuer}</CertIssuer>
                 </div>
                 <CertDate>{cert.date}</CertDate>
               </CardInner>
