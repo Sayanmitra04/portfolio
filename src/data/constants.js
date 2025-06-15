@@ -65,7 +65,7 @@ export const skills = [
       {
         name: "Express Js",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
       },
       {
         name: "MySQL",
@@ -124,7 +124,7 @@ export const experiences = [
     role: "Smart India Hackathon 2024 Participant",
     date: "Nov 2024 - Dec 2024",
     desc: "Passed College inter-hackathon round in the Smart India Hackathon 2024, working on a national-level problem statement of Social Media Feed Parsing for Cyber Crime Detection and presenting a viable solution.",
-    skills: ["Full Stack Development", "Web Scraping", "Product Design", "Strategic Thinking"],
+    skills: ["Full Stack Development", "Web Scrapping", "Product Design", "Strategic Thinking"],
   },
   {
     id: 2,
@@ -143,10 +143,16 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
     role: "Google Cloud AI Jam",
-    date: "Oct 23 - Oct 23",
+    date: "Oct 23 - Nov 23",
     desc: "Contributed to different open-source projects and learn from industry experts",
+    skills: [
+  "Community Engagement",
+  "Version Control (Git/GitHub)",
+  "Code Review & Feedback",
+  "Documentation Writing"
+]
   },
 ];
 

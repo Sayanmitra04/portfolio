@@ -1,5 +1,55 @@
+
 import React from "react";
 import styled from "styled-components";
+
+// --- Gradient Definitions ---
+// You can customize these color combinations to your heart's content!
+
+const TitleGradient = styled.div`
+  background: linear-gradient(
+    90deg,
+    #ff6b6b,
+    #ffe66d,
+    #6bccf9
+  ); /* Example: Red-Yellow-Blue for Title */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+`;
+
+const DateGradient = styled.div`
+  background: linear-gradient(
+    90deg,
+    #a8dadc,
+    #457b9d
+  ); /* Example: Teal-Dark Blue for Date */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+`;
+
+const DescriptionGradient = styled.div`
+  background: linear-gradient(
+    90deg,
+    #e74c3c,
+    #f39c12,
+    #2ecc71
+  ); /* Example: Red-Orange-Green for Description */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+`;
+
+// const TagGradient =  styled.div`
+//   font-size: 12px;
+//   font-weight: 400;
+//   color: ${({ theme }) => theme.primary};
+//   background-color: ${({ theme }) => theme.primary + 15};
+//   padding: 2px 8px;
+//   border-radius: 10px;
+//  `;
+
+// --- End of Gradient Definitions ---
 
 const Card = styled.div`
   width: 330px;
@@ -50,10 +100,10 @@ const Details = styled.div`
   gap: 0px;
   padding: 0px 2px;
 `;
-const Title = styled.div`
+// Title now uses TitleGradient
+const Title = styled(TitleGradient)`
   font-size: 20px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
   overflow: hidden;
   display: -webkit-box;
   max-width: 100%;
@@ -62,18 +112,18 @@ const Title = styled.div`
   overflow: hidden;
   text-overflow: ellipsis;
 `;
-const Date = styled.div`
+// Date now uses DateGradient
+const Date = styled(DateGradient)`
   font-size: 12px;
   margin-left: 2px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_secondary + 80};
   @media only screen and (max-width: 768px) {
     font-size: 10px;
   }
 `;
-const Description = styled.div`
+// Description now uses DescriptionGradient
+const Description = styled(DescriptionGradient)`
   font-weight: 400;
-  color: ${({ theme }) => theme.text_secondary + 99};
   overflow: hidden;
   margin-top: 8px;
   display: -webkit-box;
@@ -103,7 +153,8 @@ const ProjectCard = ({ project, setOpenModal }) => {
       <Image src={project.image} />
       <Tags>
         {project.tags?.map((tag, index) => (
-          <Tag>{tag}</Tag>
+          // Apply the gradient to each individual tag text
+          <Tag key={index}>{tag}</Tag>
         ))}
       </Tags>
       <Details>
@@ -112,8 +163,8 @@ const ProjectCard = ({ project, setOpenModal }) => {
         <Description>{project.description}</Description>
       </Details>
       <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
+        {project.member?.map((member, index) => (
+          <Avatar key={index} src={member.img} />
         ))}
       </Members>
     </Card>

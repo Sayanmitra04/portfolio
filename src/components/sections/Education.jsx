@@ -33,11 +33,11 @@ const Title = styled.div`
   text-align: center;
   font-weight: 700;
   margin-top: 20px;
-  background: linear-gradient(90deg, #00f0ff, #ff00e0, #00ffb2);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   
-
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
@@ -48,10 +48,11 @@ const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   font-weight: 600;
-  background: linear-gradient(90deg, #00ffd5, #ff9aff);
+  background: linear-gradient(45deg, #ff6b6b, #feca57, #48cae4, #06ffa5, #ff9ff3, #54a0ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  background-clip: text;
+  
   @media (max-width: 768px) {
     font-size: 16px;
   }
