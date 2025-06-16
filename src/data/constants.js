@@ -11,7 +11,7 @@ export const Bio = {
   github: "https://github.com",
   gmail: "sayanmitra105@gmail.com",
   resume:
-    "https://pdftourl-online.s3.us-east-2.amazonaws.com/M5saQsyO-Resume%20practical.pdf",
+    "https://pdftourl-online.s3.us-east-2.amazonaws.com/welZcWSi-Resume%20practical%20%283%29.pdf",
   linkedin: "https://www.linkedin.com/in/sayan-mitra-1905sma",
 };
 
