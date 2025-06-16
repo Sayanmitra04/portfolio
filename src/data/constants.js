@@ -11,7 +11,7 @@ export const Bio = {
   github: "https://github.com",
   gmail: "sayanmitra105@gmail.com",
   resume:
-    "https://app.enhancv.com/share/ce3f4876/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic",
+    "https://pdftourl-online.s3.us-east-2.amazonaws.com/M5saQsyO-Resume%20practical.pdf",
   linkedin: "https://www.linkedin.com/in/sayan-mitra-1905sma",
 };
 
@@ -224,41 +224,4 @@ export const projects = [
   },
 ];
 
-export const certifications = [
-  {
-    id: 1,
-    title: "Bias Buster (AI Hiring)",
-    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
-    category: "web app",
-  },
-  {
-    id: 2,
-    title: "Bias Buster (AI Hiring)",
-    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
-    category: "web app",
-  },
-  {
-    id: 3,
-    title: "Bias Buster (AI Hiring)",
-    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
-    category: "web app",
-  },
-  {
-    id: 4,
-    title: "Bias Buster (AI Hiring)",
-    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
-    category: "web app",
-  },
-  {
-    id: 5,
-    title: "Bias Buster (AI Hiring)",
-    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
-    category: "web app",
-  },
-  {
-    id: 6,
-    title: "Bias Buster (AI Hiring)",
-    image: "https://i.ibb.co/gbkX3P9Z/P3.png",
-    category: "web app",
-  },
-];
+
